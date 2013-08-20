@@ -8,7 +8,7 @@ module OmniAuth
 
       option :name, 'google_oauth2'
 
-      option :authorize_options, [:access_type, :hd, :login_hint, :prompt, :scope, :state, :redirect_uri]
+      option :authorize_options, [:access_type, :hd, :login_hint, :prompt, :scope, :state, :redirect_uri, :approval_prompt]
 
       option :client_options, {
         :site          => 'https://accounts.google.com',
